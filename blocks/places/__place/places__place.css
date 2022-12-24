@@ -1,0 +1,31 @@
+.places__place {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0 auto 80px auto;
+	max-width: 994px;
+}
+
+@media screen and (max-width: 1024px) {
+	.places__place {
+		max-width: 928px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.places__place {
+		max-width: 720px;
+		margin-bottom: 73px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.places__place {
+		max-width: 100%;
+		margin: 0 auto 50px auto;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+}

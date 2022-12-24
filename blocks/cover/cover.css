@@ -1,0 +1,9 @@
+.cover {
+	width: 92.5vw;
+	margin: 0 auto 7.19vw auto;
+	background-image: url(../../Images/Cover/__background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 57.8vw;
+}

@@ -1,0 +1,25 @@
+.places__li_title {
+	margin-right: 3.11vw;
+	width: 35.9vw;
+	margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+	.places__li_title {
+		width: 42.9vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.places__li_title {
+		width: 44.26vw;
+		margin-right: 3.64vw;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.places__li_title {
+		width: 90vw;
+		margin: 0 auto 32px auto;
+	}
+}

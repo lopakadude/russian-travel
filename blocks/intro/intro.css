@@ -1,0 +1,26 @@
+.intro {
+	padding: 0;
+	margin: 0 0 92px 0;
+	width: 53.9vw;
+	text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+	.intro {
+		margin-bottom: 86px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.intro {
+		min-width: 93.5vw;
+		margin: 0 auto 88px auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.intro {
+		margin-bottom: 64px;
+		max-width: 288px;
+	}
+}
