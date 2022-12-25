@@ -17,3 +17,17 @@
 .footer__link:hover .cover {
 	opacity: 0.5;
 }
+
+@media screen and (max-width: 663px) {
+	.footer__link{
+		font-size: 12px;
+		line-height: 14px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.footer__link{
+		font-size: 24px;
+		line-height: 24px;
+	}
+}

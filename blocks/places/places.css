@@ -3,6 +3,8 @@
 	margin: 0 auto 92px auto;
 }
 
+
+
 @media screen and (max-width: 1024px) {
 	.places {
 		width: 90.63vw;
@@ -16,7 +18,7 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
 	.places {
 		width: 100vw;
 		margin-bottom: 66px;

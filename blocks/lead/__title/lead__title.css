@@ -5,21 +5,28 @@
 	font-weight: 900;
 	font-size: 96px;
 	line-height: 100px;
-	max-width: 720px;
+	width: 720px;
 	text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 768px) {
 	.lead__title {
-		max-width: 93.75vw;
+		width: 93.75vw;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 716px) {
 	.lead__title {
-		margin-bottom: 16px;
-		max-width: 288px;
+		font-size: 60px;
+		line-height: 62px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.lead__title {
+		width: 90vw;
 		font-size: 40px;
 		line-height: 44px;
+		margin-bottom: 16px;
 	}
 }

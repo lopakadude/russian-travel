@@ -18,11 +18,21 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
-	.lead__subtitle_last {
-		margin-bottom: 40px;
+@media screen and (max-width: 640px) {
+	.lead__subtitle {
+		width: 90vw;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.lead__subtitle {
 		font-size: 16px;
 		line-height: 20px;
-		max-width: 288px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.lead__subtitle_last {
+		margin-bottom: 40px;
 	}
 }

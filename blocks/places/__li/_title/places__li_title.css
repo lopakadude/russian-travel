@@ -17,7 +17,7 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
 	.places__li_title {
 		width: 90vw;
 		margin: 0 auto 32px auto;

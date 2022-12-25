@@ -5,12 +5,23 @@
 	text-align: center;
 	width: 360px;
 	margin: 0 auto;
-	padding: 0 0 19vw 0;
+	padding: 0;
 	opacity: 1;
 }
 
-@media (min-width: 1280px) {
+
+@media screen and (max-width: 560px) {
 	.cover__subtitle {
-		padding-bottom: 245px;
+		font-size: 16px;
+		line-height: 20px;
+		width: 90vw;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	.cover__subtitle {
+		font-size: 14px;
+		line-height: 16px;
 	}
 }

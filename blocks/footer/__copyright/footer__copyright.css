@@ -5,3 +5,17 @@
 	margin: 0;
 	padding: 0;
 }
+
+@media screen and (max-width: 663px) {
+	.footer__copyright {
+		font-size: 12px;
+		line-height: 14px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.footer__copyright {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}

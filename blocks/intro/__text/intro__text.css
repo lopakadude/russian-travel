@@ -4,10 +4,18 @@
 	line-height: 26px;
 	padding: 0;
 	margin: 0 0 33px 0;
+	width: 690px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 766px) {
+	.intro__text {
+		width: 90vw;
+	}
+}
+
+@media screen and (max-width: 560px) {
 	.intro__text {
 		margin-bottom: 34px;
 	}
 }
+

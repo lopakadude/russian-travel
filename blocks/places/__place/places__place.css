@@ -4,28 +4,32 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	margin: 0 auto 80px auto;
-	max-width: 994px;
+	width: 77.65vw;
+}
+
+@media screen and (min-width: 1281px) {
+	.places__place {
+		width: 994px;
+	}
 }
 
 @media screen and (max-width: 1024px) {
 	.places__place {
-		max-width: 928px;
+		width: 90.62vw;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.places__place {
-		max-width: 720px;
+		width: 93.75vw;
 		margin-bottom: 73px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
 	.places__place {
-		max-width: 100%;
-		margin: 0 auto 50px auto;
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
+		width: 100vw;
+		margin-bottom: 50px;
 	}
 }

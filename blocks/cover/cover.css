@@ -1,9 +1,29 @@
 .cover {
 	width: 92.5vw;
-	margin: 0 auto 7.19vw auto;
+	margin: 0 auto 92px auto;
 	background-image: url(../../Images/Cover/__background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 57.8vw;
+	height: 57.81vw;
+}
+
+@media screen and (max-width: 1024px) {
+	.cover {
+		width: 100%;
+		height: 46.87vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cover {
+		height: 62.5vw;
+		margin-bottom: 88px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cover {
+		margin-bottom: 64px;
+	}
 }

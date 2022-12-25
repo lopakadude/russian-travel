@@ -14,17 +14,20 @@
 			<source srcset="./Images/Header/__logo_s.svg" media="(max-width: 320px)">
 			<img class="header__logo" src="./Images/Header/__logo-min.svg" alt="карта России">
 		</picture>
-		<ul class="header__links ul-decoration-none">
-			<li class="header__li"><a href="" class="header__lang-link header__lang-link_active">Ru</a></li>
-			<li class="header__li"><a href="" class="header__lang-link">En</a></li>
-		</ul>
+		<nav class="header__menu">
+			<a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+			<a href="#" class="header__lang-link">En</a>
+		</nav>
 	</header>
 	<main class="content">
 		<section class="lead">
 			<h1 class="lead__title">Путешествия по России</h1>
 			<p class="lead__subtitle">Настоящая страна не в выпусках</p>
 			<p class="lead__subtitle lead__subtitle_last">новостей, а здесь.</p>
-			<img class="lead__image" src="./Images/Lead/__image.jpg" alt="схема путешествия">
+			<picture>
+				<source srcset="./Images/Lead/__image_s.jpg" media="(max-width: 768px)">
+				<img class="lead__image" src="./Images/Lead/__image.jpg" alt="схема путешествия">
+			</picture>
 			<p class="lead__caption">ваша полка — верхняя</p>
 		</section>
 		<section class="intro">
@@ -174,10 +177,8 @@
 			<li class="footer__li"><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
 			<li class="footer__li"><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
 			<li class="footer__li"><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
-			<li class="footer__li"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
-			</li>
-			<li class="footer__li"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
-			</li>
+			<li class="footer__li"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
+			<li class="footer__li"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
 		</ul>
 		<p class="footer__copyright">
 			&copy; 2022. Дмитрий Янюк

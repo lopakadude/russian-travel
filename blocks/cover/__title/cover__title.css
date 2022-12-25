@@ -3,14 +3,26 @@
 	font-size: 72px;
 	line-height: 76px;
 	text-align: center;
-	padding: 19.1vw 0 0 0;
+	padding: 0;
 	margin: 0 auto 32px auto;
 	width: 560px;
-	height: 152px;
+	text-rendering: optimizeLegibility;
 }
 
-@media screen and (min-width: 1280px) {
+
+@media screen and (max-width: 560px) {
 	.cover__title {
-		padding-top: 245px;
+		width: 79vw;
+		font-size: 32px;
+		line-height: 35px;
+		margin-bottom: 16px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover__title {
+		font-size: 32px;
+		line-height: 35px;
+		margin-bottom: 16px;
 	}
 }

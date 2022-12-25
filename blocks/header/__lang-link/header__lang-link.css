@@ -3,10 +3,18 @@
 	line-height: 28px;
 	color: #fff;
 	text-decoration: none;
+	margin-right: 18px;
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+.header__lang-link:last-of-type {
+	margin-right: 0;
 }
 
 .header__lang-link:hover {
 	text-decoration: underline;
+	opacity: 0.7;
 }
 
 .header__lang-link_active {
@@ -14,7 +22,7 @@
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
 	.header__lang-link {
 		font-size: 18px;
 		line-height: 20px;

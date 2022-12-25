@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1024px) {
 	.photo-grid {
-		width: 90.63vw;
+		width: 90.62vw;
 		margin-bottom: 92px;
 		gap: 14px;
 	}
@@ -29,9 +29,9 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
 	.photo-grid {
-		max-width: 288px;
+		width: 90vw;
 		margin-bottom: 64px;
 		gap: 12px;
 	}

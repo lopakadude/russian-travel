@@ -1,5 +1,5 @@
 .places__li_text {
-	width: 37.8vw;
+	width: 37.81vw;
 }
 
 
@@ -15,7 +15,7 @@
 	}
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:560px) {
 	.places__li_text {
 		width: 90vw;
 		margin: 0 auto;
