@@ -8,4 +8,4 @@
 
 В данной работе произошло знакомство с относительными величинами, технологиями гридов, работой в Фигма.
 
-https://lopakadude.github.io/russian-travel/
+[https://lopakadude.github.io/russian-travel/]
