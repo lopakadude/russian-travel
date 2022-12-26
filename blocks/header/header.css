@@ -1,11 +1,17 @@
 .header {
 	width: 92.5vw;
 	height: 52px;
-	padding-top: 28px;
-	margin: 0 auto 56px auto;
+	padding-top: 26px;
+	margin: 0 auto 53px auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
+}
+
+@media screen and (min-width:1280px) {
+	.header {
+		width: 1184px;
+	}
 }
 
 @media screen and (max-width:1024px) {

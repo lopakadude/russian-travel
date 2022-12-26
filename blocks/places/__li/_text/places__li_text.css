@@ -2,6 +2,11 @@
 	width: 37.81vw;
 }
 
+@media screen and (min-width: 1280px) {
+	.places__li_text {
+		width: 484px;
+	}
+}
 
 @media screen and (max-width: 1024px) {
 	.places__li_text {

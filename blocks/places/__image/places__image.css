@@ -4,9 +4,9 @@
 }
 
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
 	.places__image {
-		width: 42.95vw;
+		width: 460px;
 	}
 }
 
