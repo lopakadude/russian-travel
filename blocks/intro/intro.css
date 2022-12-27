@@ -14,12 +14,14 @@
 @media screen and (max-width: 1024px) {
 	.intro {
 		margin-bottom: 86px;
+		width: 90.62vw;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.intro {
-		margin-bottom: 88px;
+		margin-bottom: 90px;
+		width: 93.75vw;
 	}
 }
 

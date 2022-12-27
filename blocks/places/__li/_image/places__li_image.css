@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 560px) {
 	.places__li_image {
-		margin: 0 auto 32px auto;
+		margin: 0 auto 30px auto;
 		width: 100%;
 	}
 }

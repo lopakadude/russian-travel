@@ -1,8 +1,8 @@
 .header {
 	width: 92.5vw;
 	height: 52px;
-	padding-top: 26px;
-	margin: 0 auto 53px auto;
+	padding-top: 24px;
+	margin: 0 auto 55px auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
@@ -17,17 +17,29 @@
 @media screen and (max-width:1024px) {
 	.header {
 		width: 90.63vw;
+		margin-bottom:54px;
+		padding-top: 18px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.header {
 		width: 93.75vw;
+		padding-top: 24px;
+		margin-bottom: 48px;
 	}
 }
 
 @media screen and (max-width: 560px) {
 	.header {
 		width: 90vw;
+		padding-top: 25px;
+		margin-bottom: 52px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header {
+		height: 42px;
 	}
 }

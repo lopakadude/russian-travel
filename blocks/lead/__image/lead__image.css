@@ -2,6 +2,18 @@
 	padding: 0;
 	object-fit: cover;
 	object-position: center;
-	margin: 0 auto 4px auto;
+	margin: 0 auto 5px auto;
 	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.lead__image {
+		margin-bottom: 26px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.lead__image {
+		margin-bottom: 4px;
+	}
 }

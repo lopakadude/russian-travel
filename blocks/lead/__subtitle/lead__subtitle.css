@@ -9,12 +9,18 @@
 }
 
 .lead__subtitle_last {
-	margin-bottom: 64px;
+	margin-bottom: 63px;
 }
 
 @media screen and (max-width: 1024px) {
 	.lead__subtitle_last {
 		margin-bottom: 56px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.lead__subtitle_last {
+		margin-bottom: 35px;
 	}
 }
 
@@ -33,6 +39,6 @@
 
 @media screen and (max-width: 560px) {
 	.lead__subtitle_last {
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 	}
 }
