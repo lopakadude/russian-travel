@@ -1,12 +1,15 @@
 .places__image {
 	width: 35.9vw;
 	object-fit: cover;
+	margin-right: 3.12vw;
+
 }
 
 
 @media screen and (min-width: 1280px) {
 	.places__image {
 		width: 460px;
+		margin-right: 40px;
 	}
 }
 
@@ -20,11 +23,13 @@
 @media screen and (max-width: 768px) {
 	.places__image {
 		width: 44.27vw;
+		margin-right: 3.64vw;
 	}
 }
 
 @media screen and (max-width: 560px) {
 	.places__image {
-		width: 100%;
+		width: 100vw;
+		margin: 0 auto 30px auto;
 	}
 }

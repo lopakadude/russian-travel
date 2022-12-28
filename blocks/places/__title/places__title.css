@@ -3,14 +3,32 @@
 	font-size: 72px;
 	line-height: 76px;
 	padding: 0;
-	margin: 0;
+	margin: 0 3.11vw 48px 0;
+	width: 35.9vw;
 	text-rendering: optimizeLegibility;
+	display: block;
+}
+
+@media screen and (min-width: 1280px) {
+	.places__title {
+		width: 460px;
+		margin-right: 40px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.places__title {
+		width: 42.9vw;
+		
+	}
 }
 
 @media screen and (max-width: 768px) {
 	.places__title {
 		font-size: 42px;
 		line-height: 46px;
+		width: 40.9vw;
+		margin-right: 7.9vw;
 	}
 }
 
@@ -26,5 +44,7 @@
 		font-size: 32px;
 		line-height: 35px;
 		text-align: left;
+		width: 90vw;
+		margin: 0 auto 32px auto;
 	}
 }

@@ -1,31 +1,31 @@
-.places__li_link {
+.places__link {
 	margin-bottom: 48px;
 	width: 35.62vw;
 	align-self: end;
 }
 
 @media screen and (min-width: 1280px) {
-	.places__li_link {
+	.places__link {
 		width: 456px;
 	}
 }
 
 @media screen and (max-width:1024px) {
-	.places__li_link {
+	.places__link {
 		margin-bottom: 46px;
 	}
 }
 
 
 @media screen and (max-width: 768px) {
-	.places__li_link {
+	.places__link {
 		width: 45.8vw;
 		margin-bottom: 48px;
 	}
 }
 
 @media screen and (max-width: 560px) {
-	.places__li_link {
+	.places__link {
 		align-self: flex-start;
 		margin: 0 auto 32px auto;
 		width: 90vw;
