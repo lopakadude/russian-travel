@@ -1,6 +1,5 @@
 .header {
 	width: 92.5vw;
-	height: 52px;
 	padding-top: 24px;
 	margin: 0 auto 55px auto;
 	display: flex;
@@ -17,7 +16,7 @@
 @media screen and (max-width:1024px) {
 	.header {
 		width: 90.63vw;
-		margin-bottom:54px;
+		margin-bottom: 54px;
 		padding-top: 18px;
 	}
 }
@@ -35,11 +34,5 @@
 		width: 90vw;
 		padding-top: 25px;
 		margin-bottom: 52px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.header {
-		height: 42px;
 	}
 }

@@ -29,7 +29,6 @@
 	.footer{
 		width: 90vw;
 		margin: 0 auto;
-		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 	}

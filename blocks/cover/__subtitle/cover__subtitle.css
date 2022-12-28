@@ -3,7 +3,7 @@
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
-	width: 360px;
+	max-width: 360px;
 	margin: 0 auto;
 	padding: 0;
 	opacity: 1;
