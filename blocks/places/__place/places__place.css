@@ -3,7 +3,7 @@
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: flex-start;
-	margin: 0 auto 76px auto;
+	margin: 0 auto 78px auto;
 	width: 77.65vw;
 }
 
@@ -16,6 +16,7 @@
 @media screen and (max-width: 1024px) {
 	.places__place {
 		width: 90.62vw;
+		margin-bottom: 80px;
 	}
 }
 
